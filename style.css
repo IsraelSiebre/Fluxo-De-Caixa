@@ -1,0 +1,91 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(15, 17, 26, 0.938);
+    color: white;
+}
+
+#info{
+    display: flex;
+}
+
+#info div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.input{
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgba(122, 120, 120, 0.342);
+    color: white;
+    border-color: rgba(122, 120, 120, 0.342);
+
+}
+
+
+select{
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgba(122, 120, 120, 0.342);
+    color: rgba(255, 255, 255, 0.884);
+    border-color: rgba(122, 120, 120, 0.342);
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.801);
+}
+
+#table{
+    display: flex;
+}
+
+#table table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+table{
+    border-radius: 10px;
+}
+
+
+td {
+    width: 100vh;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+button{
+    width: 250px;
+    background-color: rgba(127, 255, 212, 0);
+    color: rgba(255, 255, 255, 0.753);
+    border-color: rgba(255, 255, 255, 0.753);
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.hide{
+    visibility: hidden;
+}
